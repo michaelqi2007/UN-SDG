@@ -1,0 +1,406 @@
+<html>
+    <head>
+        <title>
+            Health and Well-Being
+        </title>
+        
+    </head>
+    
+         
+    <style>
+            *
+    {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .sidebar 
+    {
+        height: 100%;
+        width: 0px; 
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color:white;
+        overflow-x: hidden; 
+        padding-top: 60px; 
+    }
+
+    .sidebar a 
+    {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: greenyellow;
+        display: block;
+    }
+
+    .sidebar a:hover 
+    {
+        color: black;
+    }
+
+    .openbtn 
+    {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: green;
+        color: pink;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover 
+    {
+        background-color: springgreen;
+    }
+
+    #main 
+    {
+        transition: .5s;
+        padding: 20px;
+    }
+    body 
+    {
+        background-color: green (148, 97, 142);
+    }
+    h1
+    {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: red;
+        font-size: 80px;
+        background-color: green (73, 39, 74);
+        text-align: center;
+        border-style: solid;
+        border-width: 50px;
+        margin-top: 5%;
+        border-color: red (73, 39, 74);
+        border-radius: 12px;
+    }
+    .healthImage
+    {
+        border-radius: 10%;
+    }
+    .btn
+    {
+        float: left;
+        overflow: hidden;
+        background-color: green (244, 237, 203);
+        position:fixed;
+        top: 0;
+        width: 99%;
+        border-radius: 12px;
+    }
+        
+    .btn a
+    {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block
+    }
+    .support
+    {
+        text-decoration: none;
+        margin-left: 40%;
+        margin-right: 40%;
+        display: block;
+        background-color: rgb(244, 237, 203);
+        border: none; 
+        color: black; 
+        font-size: 16px; 
+        cursor: pointer; 
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        text-align: center
+    }
+    .text
+    {
+        font-size: x-large;
+        text-align: center;
+        margin-right: 12%;
+        margin-left: 12%
+    }
+    .btnDonate
+    {
+        float: right;
+        overflow: hidden;
+        top: 0;
+        margin-left: 55%;
+    }
+    .btnDonate:hover
+    {
+        color:white;
+        background-color: red (73, 39, 74);
+        transition-duration: 0.5s;
+    }
+    .hover:hover 
+    {
+        color:white;
+        background-color: green (73, 39, 74);
+        transition-duration: 0.5s;
+    } 
+    .flip-card 
+    {
+        width: 680px;
+        height: 470px;
+        perspective: 1000px;
+        border-radius: 10%;
+    }
+    .flip-card-inner 
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 1.5s;
+        transform-style: preserve-3d;
+    }
+    .flip-card:hover .flip-card-inner 
+    {
+        transform: rotateY(180deg);
+    }
+    .flip-card-front, .flip-card-back 
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 10%;
+    }
+    .flip-card-front 
+    {
+        background-color: red (148, 97, 142);
+        color: black;
+        border-radius: 10%;
+    }
+    .flip-card-back 
+    {
+        background-color: green (248, 238, 231);
+        color: black;
+        transform: rotateY(180deg);
+        border-radius: 10%;
+    }
+    .firstflexbox
+    {
+        background: red (148, 97, 142); 
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+    .secondflexbox
+    {
+        flex: 1; 
+        background-color: green (148, 97, 142);
+        padding: 5px;
+        margin: 10px;   
+        text-align: center;
+        font-size: 30px;
+    }
+    .thirdflexbox
+    {
+        background-color: blanchedalmond (148, 97, 142);
+        padding: 5px;
+        margin: 10px;   
+        text-align: center;
+        font-size: 30px;
+    }
+    .flexboxes 
+    {
+        font-size: 25px;
+    }   
+    ol
+    {
+        list-style:circle;
+        font-size: 20px;
+        text-align:left;
+        padding-right: 1%;
+    }
+
+
+    
+    </style>
+
+<style>
+    body {
+      background-image: url('Wallpaper.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    </style>
+    </head>
+    <body>
+
+<body>
+    <div id="SidebarContainer" class="sidebar">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="btn"></div>
+        <a href="Homepage.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
+        <a href="Support and Donate.html"><i class="fa-solid fa-hand-holding-medical"></i></i>Support and Donate</a>
+        <a href="How To Cope In Our Current Pandemic.html"><i class="fa-solid fa-briefcase-medical"></i>How To Cope In Our Current Pandemic</a>
+        <a href="Fun.html"><i class="fa-solid fa-dice"></i></i>Games and Quizzes</a>
+        
+    </div>
+
+    <div id="Quote"><mark>“Happiness is the highest form of health.” Dalai Lama</mark></div>
+    <div id="Quote"><mark>"To keep the body in good health is a duty otherwise we shall not be able to keep our mind strong and clear." Buddha</mark></div>
+
+
+    <div id="main">
+        <button id="openClose" class="openbtn" onclick="openNav()"><i class="fa fa-chevron-right"></i></button>
+        <h2><mark>Health and Well-Being</mark>
+            <mark>By: Michael Qi</mark>
+        </h2>
+    </div>
+    <script type='text/javascript'>
+        function openNav() 
+        {
+            document.getElementById("SidebarContainer").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("openClose").innerHTML = "<i class='fa fa-chevron-left'></i>"
+            document.getElementById("openClose").setAttribute("onclick", "closeNav()");
+        }
+
+        function closeNav() 
+        {
+            document.getElementById("SidebarContainer").style.width = "0px";
+            document.getElementById("main").style.marginLeft = "0px";
+            document.getElementById("openClose").innerHTML = "<i class='fa fa-chevron-right'></i>"
+            document.getElementById("openClose").setAttribute("onclick", "openNav()");
+        }    
+            
+    </script>
+
+<button type="button" onclick="alert('Welcome To My Site! This site will be discussing UN SDG 3, Good Health and Well-Being! I, Michael have created this site to educate viewers about the toll of covid both mentally and physically as well as other diseases.')">Click me</button>
+
+
+        <p class = "text"><mark>During The Covid-19 Crisis, Our Brave Health Workers Helped Us Vaccinate and Care For Citizens To Stop The Spread of The Virus. More Than 80% of Canada is Vaccinated! It is Important To Respect Them!</mark></p>
+        <br>
+        <a href="Support.html" class="Support"><mark>Support Health Workers During The Pandemic </mark></a>
+        
+        <br>
+        <br>
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/z_jjX-i45hU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/dhpCdqOtuj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/_gJ5V525SCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        
+
+<div class="firstflexbox">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://www.cp24.com/polopoly_fs/1.5403866.1619530993!/httpImage/image.jpg_gen/derivatives/landscape_620/image.jpg" class ="healthImage" style="width:680px;height:470px;">
+    </div>
+    <div class="flip-card-back">
+        <table>
+            <style>
+                table
+                {
+                     border: 2px green solid;
+                    border-collapse: separate;
+                    border-spacing: 10px;
+                    width: 80%;
+                    margin: auto;
+                }
+                td
+                {
+                    border: 1px lightgreen solid;
+                    padding: 5px;
+                }
+            </style>
+            <p>Diseases We Still Must Find Cures To</p>
+            <tr>
+            <td>Cancer</td>
+            <td>Alziemer's Disease</td>
+            <td>Aids</td>
+            </tr>
+            <tr>
+                <td>However, there is hope. Chemotherapy uses radiation to destroy harmful cancer cells. We can also have healthy diets. Lastly, try not to smoke because that can lead to lung cancer.  </td>
+                <td>Although, there is no certain cure for Alziemer's, we can deal with this condition by supporthing a person we know with Alziemer's and their families. Certain medicines can help with mental function. Society may not be able to get rid of the condition, but we can slow the progression. </td>
+                <td>There is no effective cure for Aids, but the virus can be controlled using antiretroviral therapy. This is a combination of several medicines that aim to control the amount of virus in the body. </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="secondflexbox">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="https://execulinks.net/wp/wp-content/uploads/2020/06/MHIllustration1-e1591894187887.png" class="healthImage" style="width:680px;height:470px;">
+            </div>
+            <div class="flip-card-back">
+                <h3>Why Mental Health Matters</h3> 
+                <p class="flexboxes">Mental Health is Vital Especially During Our Current Pandemic</p>
+                 <ol>
+                <li>Mental health includes our emotional, psychological, and social well-being.</li>
+                <br>
+                <Li>It affects how we think, feel, and act.</Li>
+                <br>
+                <li>It affects how we think, feel, and act.</li>
+                <br>
+                <li>It also helps determine how we handle stress, relate to others, and make choices. </li>
+                <br>
+                <li>Mental health is important at every stage of life, from childhood and adolescence through adulthood.</li>
+                 </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="thirdflexbox">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                 <img src="https://www.biospace.com/getasset/ff893178-9ffa-4b80-943e-1d8eb6e3a783/" class="healthImage" style="width:680px;height:470px;">
+    
+                </div>
+                <div class="flip-card-back">
+                    <h3>How Getting The Covid Vaccine Helps</h3> 
+                    <p class="flexboxes">Getting The Covid Vaccine can help in many ways</p>
+                     <ol>
+                    <li>Lowers the risk of getting Covid</li>
+                    <br>
+                    <Li>Lowers the risk of spreading Covid</Li>
+                     </ol>
+                </div>
+            </div>
+        </div>
+
+    <tr>
+        <td>
+            <p class="textOne"><mark>Are you vaccinated?</mark></p>
+            <input type="radio" name = "favCharacter" id="o1"><mark>I am vaccinated</mark><br>
+            <input type="radio" name = "favCharacter" id="o2"><mark>I am unvaccinated</mark><br>
+            
+            <br>
+            <button onclick="checkOption()" class="button">Submit</button>
+            <h3 id="rating">&nbsp;</h3>
+        </td>
+    </tr>
+</table>
+<br>
+<script type="text/javascript">
+    function checkOption()
+    {
+        console.log("Got here");
+        if (document.getElementById('o1').checked)
+        {
+            document.getElementById('rating').innerHTML = "Explain Yourself In This Form: <a href= 'https://docs.google.com/forms/d/e/1FAIpQLSf4KIfdkrKfOWC14s6ki-BdyWu7Qi_csdM6b-StTSJVA3j0wA/viewform?usp=sf_link'>Form</a>";
+        }
+        if (document.getElementById('o2').checked)
+        {
+            document.getElementById('rating').innerHTML = "Explain Yourself In This Form: <a href='https://docs.google.com/forms/d/e/1FAIpQLSf4KIfdkrKfOWC14s6ki-BdyWu7Qi_csdM6b-StTSJVA3j0wA/viewform?usp=sf_link'>Form</a>";
+        }
+    }
+</script>
+</div> 
