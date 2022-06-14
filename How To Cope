@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Health and Well-Being
+        </title>
+    <head>
+
+        <div id="SidebarContainer" class="sidebar">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="btn"></div>
+            <a href="Homepage.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
+            <a href="Support and Donate.html"><i class="fa-solid fa-hand-holding-medical"></i>>Support and Donate</a>
+            <a href="Fun.html"><i class="fa-solid fa-dice"></i>Games and Quizzes</a>
+            <a href="How To Cope In Our Current Pandemic.html"><i class="fa-solid fa-briefcase-medical"></i>How To Cope In Our Current Pandemic</a> 
+        </div>
+
+        <style>
+            body {
+              background-image: url('Coping.png');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+            }
+        </style>
+        
+        <ul class= "normal text">
+        <li><u><mark>How To Cope During Covid Both Mentally and Physically</mark></u></li>
+        <li><mark>Take breaks from news stories, including those on social media.</mark></li>
+        <li><mark>Continue with regular health appointments, testing, and screening.</mark></li>
+        <li><mark> Talk with people you trust about your concerns and how you are feeling.</mark></li>
+        <li><mark>Connect with your community or faith-based organizations</mark></li>
+        <li><mark>
+            Sedentary behaviour and low levels of physical activity can have negative effects on the health, well-being and quality of life of individuals. Self-quarantine can also cause additional stress and challenge the mental health of citizens.</mark></li>
+        <li><mark>Physical activity and relaxation techniques can be valuable tools to help you remain calm and continue to protect your health during this time. WHO recommends 150 minutes of moderate-intensity or 75 minutes of vigorous-intensity physical activity per week, or a combination of both.</mark></li>
+        <li><mark>
+            Proper nutrition and hydration are vital. People who eat a well-balanced diet tend to be healthier with stronger immune systems and lower risk of chronic illnesses and infectious diseases. So you should eat a variety of fresh and unprocessed foods every day to get the vitamins, minerals, dietary fibre, protein and antioxidants your body needs. Drink enough water. Avoid sugar, fat and salt to significantly lower your risk of overweight, obesity, heart disease, stroke, diabetes and certain types of cancer.</mark></li>
+        <li><mark>Get vaccinated and stay up to date on your COVID-19 vaccines.</mark></li>
+        <li><mark>Eat plenty of fruits and vegetables, lean protein, whole grains, and fat–free or low–fat milk and milk products. Eating well also means limiting saturated fats, cholesterol, salt, and added sugars.</mark></li>
+        <li><mark>Going to bed at the same time each night and getting up at the same time each morning, including on the weekends, can help you sleep better</mark></li>
+        <li><mark>Move more and sit less-every little bit of physical activity helps. You can start small and build up to 150 minutes a week that can be broken down to smaller amounts such as 20 to 30 minutes a day.</mark></li>
+        <li><mark>Take deep breaths, stretch, or meditateexternal icon.</mark></li>
+        <li><mark>Limit alcohol intake. Choose not to drink, or drink in moderation by limiting consumption to one drink a day for women—two for men—on days that alcohol is consumed.</mark></li>
+        <li><mark>Avoid smoking and the use of other tobacco products. People can and do quit smoking for good.</mark></li>
+        <li><mark>Continue with regular health appointments, testing, and screening.</mark></li>
