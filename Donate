@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Health and Well-Being
+        </title>
+    </head>
+
+<div id="SidebarContainer" class="sidebar">
+    <a href="Homepage.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
+    <a href="Support and Donate.html"><i class="fa-solid fa-hand-holding-medical"></i></i>Support and Donate</a>
+    <a href="Fun.html"><i class="fa-solid fa-dice"></i></i>Games and Quizzes</a>
+    <a href="How To Cope In Our Current Pandemic.html"><i class="fa-solid fa-briefcase-medical"></i>How To Cope In Our Current Pandemic</a>
+</div>
+
+<style>
+    body {
+      background-image: url('donation.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+</style>
+
+<body>
+
+    <h1>Support and Donation</h1>
+    <h2>Petitions and Charities for Covid Relief</h2>
+    <p><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate ">Donate To WHO</a></p>
+    <p><a href="https://www.canadahelps.org/en/donate-to-coronavirus-outbreak-response/ ">Donate To Canada Helps</a></p>
+    <p><a href="https://www.toronto.ca/business-economy/partnerships-sponsorships-donations/donate/covid-19-donateto/">Donate To Toronto Public Health</a></p>
+    <p><a href="https://www.unicef.ca/en/what-we-do/donate-to-coronavirus ">Donate To Unicef</a></p>
+    <p><a href="https://www.redcross.ca/how-we-help/current-emergency-responses/covid-19-%E2%80%93-novel-coronavirus ">Donate To Red Cross</a></p>
+    <p><a href="https://donate.worldvision.ca/products/covid-19-response ">Donate To World Vision</a></p>
+    
+    
+    
+    
+    <h3>Petitions and Charities for Other Health Conditions</h3>
+   
+        <p><a href="https://www.heartandstroke.ca/how-you-can-help/ways-to-give">Donate To Heart and Stroke</a></p>
+        <p><a href="https://www.thelifeyoucansave.org/causes-to-support/infectious-disease-charities/">Donate To The life you can save</a></p>
+        <p><a href="https://menshealthfoundation.ca/donate/">Donate To Mens Health Foundation</a></p>
+</body>
+</html> 
