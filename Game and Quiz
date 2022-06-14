@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <title>
+            Health and Well-Being
+        </title>
+    </head>
+
+
+</style>
+<body>
+    <div id="SidebarContainer" class="sidebar">
+        <a href="Homepage.html"><i class="fa fa-fw fa-home"></i>Homepage</a>
+        <a href="Support and Donate.html"><i class="fa-solid fa-hand-holding-medical"></i></i>Support and Donate</a>
+        <a href="Fun.html"><i class="fa-solid fa-dice"></i></i>Games and Quizzes</a>
+        <a href="How To Cope In Our Current Pandemic.html"><i class="fa-solid fa-briefcase-medical"></i>How To Cope In Our Current Pandemic </a>
+    </div>
+
+
+
+    <h1><mark>Have Fun!</mark></h1>
+        <p class="text"><mark>Play Games and Quizzes!</mark></p>
+        <br>
+        <br>
+        <style>
+            #N95Mask
+            {
+                display:none;
+            }
+            #SurgicalMask
+            {
+                display:none;
+            }
+            #FancyMask
+            {
+                display:none;
+            }
+            #FunnyMask
+            {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <head>
+            <title>Masks</title>
+          
+        </head>
+        <style>
+            *
+            {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+    
+            .pictures 
+            {
+                width: 100%;
+                white-space: nowrap;
+                overflow: auto;
+            }
+    
+            .pictures img 
+            {
+                display: inline-block;
+                width:30%;
+            }
+    
+            body
+            {
+                width:3000px;
+            }
+        </style>
+
+<style>
+    body {
+      background-image: url('quiz.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+</style>
+   
+    
+    <h1><mark>Choose Your Favourite Mask</mark></h1>
+    <div class="pictures">
+            <img src="n95.jpeg">
+            <img src="surgical mask.jpeg">
+            <img src="fancy masks.jpeg">
+            <img src="funny mask.jpg">
+    </div>
+    
+    
+    <input type="radio" name = "favMask" id="rhp1"><mark>N95</mark><br>
+    <input type="radio" name = "favMask" id="rhp2"><mark>Surgical Mask</mark><br>
+    <input type="radio" name = "favMask" id="rhp3"><mark>Fancy Mask</mark><br>
+    <input type="radio" name = "favMask" id="rhp4"><mark>Funny Mask</mark><br>
+    <button id="allMasks" onclick="checkFavourite();"><mark>See Your Results</mark></button>
+    <div id="message"></div>
+
+    <h1><mark>Test Your Knowledge!</mark></h1>
+        <p class="text"><mark>Test what you've learned in this quiz!</mark></p>
+        <br>
+        <br>
+        <table width=100%>
+            <tr>
+                <td>
+                    <mark>Select All The Statements That Are True</mark><br>
+                    <br>
+                    <input type="checkbox" id="t1"><mark>Exercise will give you more energy, even when you're tired.</mark><br>
+                    <input type="checkbox" id="t2"><mark>Always look on the bright side: being an optimist can help you live longer.</mark><br>
+                    <input type="checkbox" id="nt1"><mark>Coffee Can Stunt Childhood Development</mark><br>
+                    <input type="checkbox" id="t3"><mark>Laughing is good for the heart and can increase blood flow by 20 percent</mark><br>
+                    <input type="checkbox" id="nt2"><mark>Carrots Give You Night Vision</mark><br>
+                    <input type="checkbox" id="nt3"><mark>Cracking Knuckles Leads to Arthritis</mark><br>
+                    <input type="checkbox" id="t4"><mark>Your skin works very hard</mark><br>
+
+
+
+                    <br>
+                    <button onclick="checkAnswers()" class="button">See Your Results</button>
+                    <h3 id="result">&nbsp;</h3>
+    
+    
+    <script type="text/javascript">
+    function checkFavourite()
+    {
+    if (document.getElementById("rhp1").checked==true)
+    {
+        document.getElementById("message").innerHTML = "You are protective of yourself!";
+    }
+    if (document.getElementById("rhp2").checked==true)
+    {
+        document.getElementById("message").innerHTML = "You follow the crowd!";
+    }
+    if (document.getElementById("rhp3").checked==true)
+    {
+        document.getElementById("message").innerHTML = "You are like being different and being noticed!";
+    }
+    if (document.getElementById("rhp4").checked==true)
+    {
+        document.getElementById("message").innerHTML = "You like to make others laugh!";
+    }
+     
+    }
+    function checkAnswers()
+    {
+        correctAnswers = 0;
+    if (document.getElementById("t1").checked)
+    {
+        correctAnswers++;
+    }
+    if (document.getElementById("t2").checked)
+    {
+        correctAnswers++;
+    }
+    if (document.getElementById("t3").checked)
+    {
+        correctAnswers++;
+    }
+    if (document.getElementById("t4").checked)
+    {
+        correctAnswers++;
+    }
+    if (!document.getElementById("nt1").checked)
+    {
+        correctAnswers++;
+    }
+    if (!document.getElementById("nt2").checked)
+    {
+        correctAnswers++;
+    }
+    if (!document.getElementById("nt3").checked)
+    {
+        correctAnswers++;
+    }
+    if (correctAnswers == 7)
+    {
+        document.getElementById("result").innerHTML = "Congratulations, you got them all right.";
+    }
+    else
+    {
+        document.getElementById("result").innerHTML = "Sorry, try again. You only got " + correctAnswers + " right. Try going back to my site to get a better understanding of the information.";
+    }
+    }
+    
+   
+</script>
+</body>
+</html>
+        
+
+
+ 
